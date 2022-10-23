@@ -1,0 +1,197 @@
+.wrapper{
+   overflow: hidden;
+   min-height: 100%;
+   padding-top: 100px;
+   width: 1000px;
+   margin: 0   auto;
+}
+body{
+   max-width: 100%;
+   background-color: darkgrey;
+}
+.section{
+   padding: 50px;
+   width: 350px;
+}
+.section__body{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(100, 148, 237, 0.642);
+   margin-bottom: 50px;
+}
+.section__item{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(65, 105, 225, 0.937);
+   text-align: center;
+   padding-top: 50%;
+   font-size: 30px;
+}
+.section__item:hover{
+   transform: translate(20px,20px);
+   transition: all   0.3s  ease  0s;
+}
+.section__body--two{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(100, 148, 237, 0.642);
+}
+.section__item--two{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(65, 105, 225, 0.937);
+   text-align: center;
+   padding-top: 50%;
+   font-size: 30px;
+}
+.section__item--two:hover{
+   transform: translate(20%,20%);
+   transition: all   0.3s  ease  0s;
+}
+.section__two{
+   margin-left: 350px;
+   margin-top: -500px;
+   width: 300px;
+}
+.section__body--scale{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(100, 148, 237, 0.642);
+}
+.section__item--scale{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(65, 105, 225, 0.937);
+   text-align: center;
+   padding-top: 50%;
+   font-size: 30px;
+   transform: scale(0.2);
+}
+.section__item--scale:hover{
+   transform: scale(1);
+   transition: all   0.3s  ease  0s;
+}
+.section__three{
+   margin-left: 350px;
+   margin-top: 50px;
+   width: 300px;
+}
+.section__body--rotate{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(100, 148, 237, 0.642);
+   transform: rotate(50deg);
+}
+.section__item--rotate{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(65, 105, 225, 0.937);
+   text-align: center;
+   padding-top: 50%;
+   font-size: 30px;
+   transform: rotate(-30deg);
+}
+.section__body--rotate:hover{
+   transform: rotate(360deg);
+   transition: all   0.5s  ease  0s;
+}
+.section__item--rotate:hover{
+   transform: rotate(360deg);
+   transition: all   0.5s  ease  0s;
+}
+.section__four{
+   width: 300px;
+   margin-left: 650px;
+   margin-top: -450px;
+}
+.section__body--skew{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(100, 148, 237, 0.642);
+   transform: skew(-50deg,10deg);
+}
+.section__item--skew{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(65, 105, 225, 0.937);
+   text-align: center;
+   padding-top: 50%;
+   font-size: 30px;
+   transform: skew(-10deg,50deg);
+}
+.section__body--skew:hover{
+   transform: skew(0deg,0deg);
+   transition: all   0.5s  ease  0s;
+}
+.section__item--skew:hover{
+   transform: skew(0deg,0deg);
+   transition: all   0.5s  ease  0s;
+}
+.section__five{
+   margin-left: 650px;
+   margin-top: 50px;
+   width: 300px;
+}
+.section__body--matrix{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(100, 148, 237, 0.642);
+}
+.section__item--matrix{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(65, 105, 225, 0.937);
+   text-align: center;
+   padding-top: 50%;
+   font-size: 30px;
+   transform: matrix(1, 1, 0, 1, 0, 1);
+}
+.section__item--matrix:hover{
+   transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.section__six{
+   margin-top: 50px;
+   width: 300px;
+   margin-left: 50px;
+}
+.section__body--origin{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(100, 148, 237, 0.642);
+}
+.section__item--origin{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(65, 105, 225, 0.937);
+   text-align: center;
+   padding-top: 50%;
+   font-size: 30px;
+}
+.section__item--origin:hover{
+   transform-origin: 9 1;
+   transform: rotate(60deg);
+}
+.section__seven{
+   margin-left: 350px;
+   width: 300px;
+   margin-top: -200px;
+}
+.section__body--perspective{
+   width: 200px;
+   height: 200px;
+   background-color: rgba(100, 148, 237, 0.642);
+}
+.section__item--perspective{  width: 200px;
+   height: 200px;
+   background-color: rgba(65, 105, 225, 0.937);
+   text-align: center;
+   padding-top: 50%;
+   font-size: 30px;
+}
+.section__body--perspective:hover{
+   perspective: 500px;
+	perspective-origin:center;
+}
+.section__item--perspective:hover{
+   transform: rotateX(50deg);
+}
